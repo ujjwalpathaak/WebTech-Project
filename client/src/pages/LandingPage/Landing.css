@@ -1,0 +1,70 @@
+.LandingContainer{
+    display: flex;
+    align-items: center;  
+    flex-direction: column;  
+}
+.HeaderLanding{
+    display: flex;
+    align-items: center;
+    width: 96%;
+    background-color: #add8e6;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}  
+.LandingLogo{
+    padding-right: 5%;
+}
+.LandingHeaderTexts{
+    display: flex;
+    width: 75vw;
+    flex-direction: column;
+}
+.LoginPageButtonLanding{
+    background-color: white;
+    padding: 1.2%;
+    border-radius: 5px;
+    color: #72a7b9;
+}
+#LandingLogo{
+    width: 5rem;
+    height: 7rem;
+}
+.PPHeadingLanding{
+    font-size: 2rem;
+}
+.JUITHeadingLanding{
+    font-size:1rem;
+}
+.AboutUsSection{
+    background-color: white;
+    padding: 1%;
+    display: flex;
+    gap: 1vw;
+}
+.AboutUsLeft{
+    background-color: #add8e6;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    
+}
+.AboutUsLeft{
+    width: 100%;
+}
+
+.HeadingLanding{
+    padding-bottom: 1%;
+    font-size: 1.1rem;
+
+}
+.Slideshow{
+    height: 5vh;
+}
+.HeadingLanding{
+    padding-bottom: 1%;
+    text-decoration: underline;
+}
+.LinkLoginBtn{
+    text-decoration: none;
+}

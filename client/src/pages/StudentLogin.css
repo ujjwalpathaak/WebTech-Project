@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.IfCompany {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-decoration: none;
+  color: red;
+  animation: bounce 4s ease infinite;
+}
+.IfCompany:hover {
+  animation: none;
+  color: #085b76;
+}
+@keyframes bounce {
+  85% {
+    transform: translateY(0%);
+  }
+  88% {
+    transform: translateY(-15%);
+  }
+  91% {
+    transform: translateY(0%);
+  }
+  94% {
+    transform: translateY(-7%);
+  }
+  97% {
+    transform: translateY(0%);
+  }
+  99% {
+    transform: translateY(-3%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container1 {
+  background-color: #e8ecf5;
+  width: 50%;
+}
+.logoJUIT {
+  width: 8vw;
+  height: 10vw;
+}
+img {
+  height: 10rem;
+  width: 8rem;
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-color: white;
+  height: 60vh;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.container2 {
+  background-color: #e8ecf5;
+  width: 50%;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: white;
+  background-color: #add8e6;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  width: 60%;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.EmailHeading {
+  margin-top: 4%;
+  display: flex;
+  background-color: cadetblue;
+  margin-bottom: 2%;
+}
+
+#EmailInput {
+  border-radius: 5px;
+  padding-left: 1vw;
+  font-size: 70%;
+  margin-top: 10%;
+  width: 12vw;
+  height: 3vh;
+
+  border: 0;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+#EmailInput2 {
+  border-radius: 5px;
+  padding-left: 1vw;
+  font-size: 70%;
+  margin-top: 10%;
+  margin-left: 18%;
+  border: 0;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.PasswordHeading {
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+#PasswordInput {
+  border-radius: 5px;
+  padding-left: 1vw;
+  width: 12.4vw;
+  height: 4.8vh;
+  font-size: 70%;
+  margin-top: 10%;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+#PasswordInput2 {
+  border-radius: 5px;
+  padding-left: 1vw;
+  width: 13vw;
+  height: 6vh;
+  font-size: 70%;
+  margin-top: 10%;
+  margin-left: 18%;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.reset {
+  font-size: 70%;
+  color: #5479fa;
+  margin-top: 2%;
+  margin-left: -30%;
+  text-decoration: underline 1px #5479fa;
+  margin-left: 18%;
+}
+
+#LoginButton {
+  margin-top: 3rem;
+  background-color: #add8e6;
+  color: white;
+  width: 10vw;
+  font-weight: bold;
+  border-radius: 5px;
+  border-color: white;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  margin-left: 18%;
+  align-items: center;
+  text-decoration: none;
+}
+#LoginButton:hover {
+  background-color: aqua;
+}
+.LoginLink {
+  text-decoration: none;
+  color: white;
+}
+.login-input {
+  width: 13vw;
+  height: 2rem;
+}
+
+.juit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 150%;
+  color: white;
+  margin-top: 5%;
+  margin-left: 18%;
+  text-decoration: none;
+}
+.juit1 {
+  text-decoration: none;
+  color: white;
+}
+
+.approval {
+  padding-top: 2rem;
+  font-size: 90%;
+  font-weight: bold;
+  color: white;
+  margin-left: 10%;
+}
+
+.DropDownStdCmp {
+  margin-top: 5%;
+  width: 35%;
+}
+.ring {
+  border: 20px solid rgb(211, 211, 211);
+  position: absolute;
+  left: 45%;
+  border-radius: 50%;
+  border-top: 20px solid #add8e6;
+  width: 100px;
+  height: 100px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container1 {
+    background-image: linear-gradient(90deg, #e5e5e5 50%, #add8e6 50%);
+    width: 100%;
+  }
+
+  .leftContainer {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .container2 {
+    display: none;
+  }
+  img {
+    height: 10rem;
+    width: 8rem;
+  }
+
+  .leftContainer {
+    border-radius: 15px;
+  }
+
+  #LoginButton {
+    margin-top: 1.5rem;
+  }
+
+  .login-input {
+    width: 25vw;
+    height: 25px;
+  }
+}
+.SignUP {
+  display: flex;
+  gap: 0.5vw;
+  margin-top: 3vh;
+  font-size: 80%;
+}
